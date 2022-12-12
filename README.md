@@ -23,4 +23,5 @@ docker run -d -p 5001:80 -e Environment=Development --name api api
 - [ ] Post CRUD
 - [ ] Articles CRUD
 - [ ] Filters in the method GET
+- [ ] Consume external app
 - [ ] Procesar un file
