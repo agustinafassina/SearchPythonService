@@ -10,7 +10,7 @@ This is my first repository with python and django 🐍.
 - [x] Migrations
 - [x] Cors
 - [x] Environment variables
-- [ ] Docker
+- [*] Docker
 - [x] Post application - CRUD
 - [ ] Articles application - CRUD
 - [ ] Filters in the method GET
@@ -34,22 +34,16 @@ Run command where is the manager.py file.
 python manage.py runserver
 ```
 
-### Docker build and run 🚀
-```
-docker build -t api .
-```
+Path:
+* http://localhost:8000
 
-#### Environment variables with docker.
-Variables go when docker is executed.
+### Docker run 🚀
 ```
-docker run -d -p 5001:80 -e "DATABASE_HOST=youbim-stg.c5tqomlevyjk.us-west-1.rds.amazonaws.com" -e "DATABASE_NAME=searchpython" -e "DATABASE_USER=root" -e "DATABASE_PASSWORD=abc123..B" --name api api
+docker-compose up
 ```
 
 Path:
-* http://localhost:8000
-* * /admin -> Django admin interface
-* * /api -> Api rest
-
+* http://localhost:8000/
 
 #### New dependecies
 To add the dependencies in the requirements.txt file and have the docker build.
