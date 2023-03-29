@@ -10,7 +10,7 @@ This is my first repository with python and django 🐍.
 - [x] Migrations
 - [x] Cors
 - [x] Environment variables
-- [*] Docker
+- [x] Docker
 - [x] Post application - CRUD
 - [ ] Articles application - CRUD
 - [ ] Filters in the method GET
