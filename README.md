@@ -51,6 +51,5 @@ To add the dependencies in the requirements.txt file and have the docker build.
 pip freeze > requirements.txt
 ```
 
-
 #### Docker example:
 https://dev.to/foadlind/dockerizing-a-django-mysql-project-g4m
